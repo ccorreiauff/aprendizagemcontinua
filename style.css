@@ -1,0 +1,93 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.call-to-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.volunteer {
+    background-color: #28a745;
+}
+
+.donate {
+    background-color: #dc3545;
+}
+
+.partner {
+    background-color: #ffc107;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos responsivos (exemplo básico) */
+@media (max-width: 600px) {
+    .call-to-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        position: static; /* Evita que o footer fique fixo em telas pequenas */
+    }
+}
