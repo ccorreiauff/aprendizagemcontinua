@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #444;
+    color: #333;
     line-height: 1.6;
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 header {
-    background-color: #d35400; /* Tom de laranja mais fechado (exemplo) */
-    color: #fff;
+    background-color: #22140ab6; /* Tom de laranja mais fechado (exemplo) */
+    color: #d35400;
     padding: 40px 0;
     text-align: center;
     margin-bottom: 30px;
@@ -28,6 +28,7 @@ header h1 {
 }
 
 header .subtitle {
+    color: #fff;
     font-size: 1.2em;
     font-weight: 600;
     opacity: 0.8;
