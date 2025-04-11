@@ -3,8 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f8f5f0;
+    color: #000;
     line-height: 1.6;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #22140ab6; /* Tom de laranja mais fechado (exemplo) */
+    background-color: #333; /* Tom de laranja mais fechado (exemplo) */
     color: #d35400;
     padding: 40px 0;
     text-align: center;
@@ -35,7 +35,7 @@ header .subtitle {
 }
 
 main section {
-    background-color: #fff;
+    background-color: #f8f5f0;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 12px;
@@ -58,24 +58,22 @@ main p.lead {
 }
 
 main ul {
-    list-style: none;
-    padding-left: 20px;
+    font-size: 1.1em;
+    color: #555;
     margin-bottom: 20px;
 }
 
 main ul li::before {
-    content: "\2022"; /* Bullet point */
-    color: #d35400;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
 }
 
 main p.author {
+    font-size: 1.1em;
     font-style: italic;
     color: #777;
-    text-align: right;
+    text-align: center;
 }
 
 .call-to-actions {
